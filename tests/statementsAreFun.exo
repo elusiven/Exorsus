@@ -1,0 +1,30 @@
+// Statements
+
+a = 10;
+b = 5;
+
+print(" --  IF --");
+
+// If
+if (a < 5) {
+    print("A is higher than 5.");
+} else if (a > 5 && b < a) {
+    print("a is higher than 5 and b is lower than a");
+} else {
+    print("All this is lies!");
+}
+
+print(" --  FOR --");
+
+// For
+for (i=0; to 15) {
+    print(i);
+}
+
+print(" --  WHILE --");
+
+// While
+while(b <= 5) {
+    print(b);
+    b = b + 1;
+}

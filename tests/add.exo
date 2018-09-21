@@ -1,0 +1,26 @@
+// naive bubble sort
+def sort(list) {
+    while (!sorted(list)) {
+
+    }
+}
+
+def sorted(list) {
+     n = size(list);
+     for (i=0 to n-2) {
+        if (list[i] > list[i+1]) {
+            temp = list[i+1];
+            list[i+1] = list[i];
+            list[i] = temp;
+            return false;
+        }
+     }
+
+     return true;
+}
+
+numbers = [3,5,1,4,2];
+sort(numbers);
+
+print("BUBBLE SORT");
+print(numbers);

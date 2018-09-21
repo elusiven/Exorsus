@@ -1,0 +1,17 @@
+// The mighty lists of EVERRRRRRY-THING!
+
+listOfEverything = [1, "lol", true];
+
+if (1 in listOfEverything) {
+    print("1 is present in the list");
+}
+
+if ("lol" in listOfEverything) {
+    print("lol is present in the list");
+}
+
+// print first one in the list
+print(listOfEverything[0]);
+
+// print the lol
+print(listOfEverything[1]);

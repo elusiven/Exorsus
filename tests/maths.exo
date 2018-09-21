@@ -1,0 +1,21 @@
+// Simple maths
+def add(a,b) {
+    print(a+b);
+}
+
+def subtract(a,b) {
+    print(a-b);
+}
+
+def multiply(a,b) {
+    print(a*b);
+}
+
+def divide(a,b) {
+    print(a/b);
+}
+
+add(5,5);
+subtract(10,5);
+multiply(5,5);
+divide(25,5);
